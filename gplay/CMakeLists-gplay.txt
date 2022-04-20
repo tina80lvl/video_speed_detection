@@ -1,0 +1,88 @@
+cmake_minimum_required(VERSION 2.8.11)
+project(gplay)
+
+set(${PROJECT_NAME}_SOURCE_FILES
+		Gplay.cpp
+		GplayProperties.cpp
+		GplayProperties.h
+		PureLiveVideoListeningSocket.h
+		PureLiveVideoListeningSocket.cpp
+		MeshReader.h
+		MeshReader.cpp
+		HumanHand.h
+		HumanHand.cpp
+		HumanHandImu.h
+		HumanHandImu.cpp
+		GplayWebDisplay.h
+		GplayWebDisplay.cpp
+		GplayControlSocket.h
+		GplayControlSocket.cpp
+		cuda/cuda_utils.h
+		cuda/MaterialData.h
+		sutil/Camera.h
+		sutil/Camera.cpp
+		sutil/Scene.h
+		sutil/Scene.cpp
+		sutil/Record.h
+		sutil/Aabb.h
+		math_utils.h
+
+		sutil/optix_utils.h
+		sutil/gltf_helpers.h
+		sutil/gltf_helpers.cpp
+		sutil/Matrix.h
+		sutil/Quaternion.h
+		sutil/Quaternion.cpp
+
+		support/tinygltf/json.hpp
+		support/tinygltf/tiny_gltf.h
+		support/tinygltf/tiny_gltf.cpp
+		support/tinygltf/stb_image.h
+		support/tinygltf/stb_image_write.h
+
+		${CMAKE_SOURCE_DIR}/utils/play/GrabbedFrameDescriptorWrapper.h
+		${CMAKE_SOURCE_DIR}/utils/play/GrabbedFrameDescriptorWrapper.cpp
+		${CMAKE_SOURCE_DIR}/utils/play/HeavyDataReader.h
+		${CMAKE_SOURCE_DIR}/utils/play/HeavyDataReader.cpp
+		${CMAKE_SOURCE_DIR}/utils/play/FrameTimer.h
+		${CMAKE_SOURCE_DIR}/utils/play/FrameTimer.cpp
+		${CMAKE_SOURCE_DIR}/utils/emu/MailboxVideoPlayer.h
+		${CMAKE_SOURCE_DIR}/utils/emu/MailboxVideoPlayer.cpp
+		${CMAKE_SOURCE_DIR}/utils/emu/TlPainter.cpp
+		${CMAKE_SOURCE_DIR}/utils/emu/TlPainter.h
+		${CMAKE_SOURCE_DIR}/sensorapp/ArteriaFrameFormatConverter.h
+		${CMAKE_SOURCE_DIR}/sensorapp/ArteriaFrameFormatConverter.cpp
+		sutil/Animation.cpp sutil/Animation.h)
+
+add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_SOURCE_FILES})
+
+set(OPTIX_D /usr/lib/NVIDIA-OptiX-SDK-7.3.0-linux64-x86_64)
+set(CUDA_TOOLKIT_ROOT_DIR /usr/local/cuda-11.5)
+
+#find_package(CUDA REQUIRED)
+#find_library(CUDART_LIB cudart HINTS ${CUDA_TOOLKIT_ROOT_DIR} PATH_SUFFIXES lib lib64)
+#include_directories(${CUDA_INCLUDE_DIRS})
+set(CUDART_LIB ${CUDA_TOOLKIT_ROOT_DIR}/lib64/libcudart_static.a)
+
+set(GPLAY_LIBRARIES photoradar2 asynctools2 ${CUDART_LIB} rt dl)
+
+if (Wt_FOUND)
+	add_definitions(-DHAVE_WITTY)
+	set(GPLAY_LIBRARIES ${GPLAY_LIBRARIES} ${Boost_LIBRARIES} ${Wt_HTTP_LIBRARY} ${Wt_LIBRARY})
+	target_include_directories(${PROJECT_NAME} PRIVATE ${Wt_INCLUDE_DIR})
+	target_include_directories(${PROJECT_NAME} PRIVATE ${Boost_INCLUDE_DIRS})
+endif(Wt_FOUND)
+
+#add_definitions(-DOPTIX_DONT_INCLUDE_CUDA)
+
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${CMAKE_SOURCE_DIR}/utils/play
+    ${CMAKE_SOURCE_DIR}/sensorapp/
+    ${CMAKE_SOURCE_DIR}/utils/emu
+    ${CMAKE_SOURCE_DIR}/utils/gplay
+    ${CMAKE_SOURCE_DIR}/utils/gplay/support
+    ${OPTIX_D}/include
+    ${CUDA_TOOLKIT_ROOT_DIR}/include
+)
+
+target_link_libraries(${PROJECT_NAME} ${GPLAY_LIBRARIES})
