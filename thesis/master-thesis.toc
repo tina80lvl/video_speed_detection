@@ -1,0 +1,69 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ВВЕДЕНИЕ}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Обзор возможностей комплекса <<КОРДОН.Про>>М}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Определения и ключевые понятия}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Содержание RC-файла}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Результаты распознавания номера}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Цели с радара}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Возможности прибора}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Автоматическая фотовидеофиксация}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Распознавание номерных знаков и розыск ТС}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Классификация ТС}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Видеонаблюдение}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Передача данных}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Защита и безопасность}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Телеметрия и диагностика}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Установка}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Работа в ночное время}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Статистика}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Входные данные для исслеедования}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 1}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Обзор существующих решений}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Базовая геометрическая оптика}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 2}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Предложенное решение}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Сбор входных данных. RC-парсер}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Объект мониторинга}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Алгоритм определения скорости}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Приведени задачи триангуляции}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 3}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{23}%
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{chapter}{\appendixPrefix }{}{\contentslabel [\@appendixname ~\thecontentslabel .]{\the \appendixPrefix }}{\hspace *{-\the \appendixPrefix }}{\titlerule *[0.5pc]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {А}Описания форматов}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {Б}Еще один пример приложения с неимоверно длиннющим названием для тестирования переносов}{27}%
+\contentsfinish 
