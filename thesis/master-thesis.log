@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.3)  18 MAY 2022 01:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.3)  26 MAY 2022 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1684,15 +1684,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
 ционные Транспортных
  []
 
-[1] [2] [1] [2] (./master-thesis.toc
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
- []|| []\TU/TimesNewRoman(0)/m/n/14.4 Еще один пример приложения с неимоверно 
- []
-
-)
+[1] [2] [1] [2]
+No file master-thesis.toc.
 \tf@toc=\write6
 \openout6 = `master-thesis.toc'.
-
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1710,9 +1705,26 @@ File: ../png/cordon_pro_staition.jpg Graphic file (type bmp)
 ]
 File: ../png/cordon_pro_2.jpg Graphic file (type bmp)
 <../png/cordon_pro_2.jpg>
+
+
+LaTeX Warning: Reference `img:cordon-state' on page 6 undefined on input line 1
+32.
+
+
+LaTeX Warning: Reference `img:cordon-move' on page 6 undefined on input line 13
+2.
+
+
+LaTeX Warning: Reference `img:cordon-mobile' on page 6 undefined on input line 
+132.
+
+
+LaTeX Warning: Reference `tb1:cordon-tech' on page 6 undefined on input line 13
+2.
+
 File: ../png/cordon_pro_d_auto.jpg Graphic file (type bmp)
 <../png/cordon_pro_d_auto.jpg>
- [6]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\TU/TimesNewRoman(0)/m/n/14.4 не более
  []
@@ -1724,322 +1736,546 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
 [7]
 Глава 1.
+
+LaTeX Warning: Reference `img:rc-file' on page 8 undefined on input line 178.
+
 [8
 
 ]
 File: ../png/rc_file.png Graphic file (type bmp)
 <../png/rc_file.png>
+
+
+LaTeX Warning: Reference `img:frame-data' on page 9 undefined on input line 186
+.
+
+
+LaTeX Warning: Reference `tb1:frame-data' on page 9 undefined on input line 186
+.
+
 File: ../png/frame_data.png Graphic file (type bmp)
 <../png/frame_data.png>
 
-Underfull \hbox (badness 3525) in paragraph at lines 197--198
-\TU/TimesNewRoman(0)/m/n/14.4 ответствуют ID=5 из таблицы А.3[] и представляют 
-собой массив типа
+LaTeX Warning: Reference `tb1:rc-type' on page 9 undefined on input line 194.
+
+
+LaTeX Warning: Reference `tb1:frame-type' on page 9 undefined on input line 194
+.
+
+
+LaTeX Warning: Reference `img:rc-file' on page 9 undefined on input line 194.
+
+
+LaTeX Warning: Reference `img:frame-data' on page 9 undefined on input line 194
+.
+
+
+LaTeX Warning: Reference `tb1:frame-data' on page 9 undefined on input line 194
+.
+
+
+LaTeX Warning: Reference `tb1:frame-data' on page 9 undefined on input line 197
+.
+
+
+LaTeX Warning: Reference `lst:trect' on page 9 undefined on input line 197.
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 197--198
+\TU/TimesNewRoman(0)/m/n/14.4 ответствуют ID=5 из таблицы [] и представляют соб
+ой массив типа
  []
 
 File: ../png/licnum_recog_coords.png Graphic file (type bmp)
 <../png/licnum_recog_coords.png>
-[9] [10]
+[9]
+
+LaTeX Warning: Reference `img:licnum-recog-ind' on page 10 undefined on input l
+ine 225.
+
+[10]
+
+LaTeX Warning: Reference `tb1:frame-data' on page 11 undefined on input line 22
+9.
+
+
+LaTeX Warning: Reference `lst:umrr' on page 11 undefined on input line 229.
+
+
+LaTeX Warning: Reference `img:road-coords' on page 11 undefined on input line 2
+58.
+
 File: ../png/road_coords.png Graphic file (type bmp)
 <../png/road_coords.png>
- [11] [12] [13] [14] [15] [16]
+[11] [12] [13] [14]
+
+LaTeX Warning: Reference `sec:cordon-charact' on page 15 undefined on input lin
+e 346.
+
+
+LaTeX Warning: Reference `par:rc-description' on page 15 undefined on input lin
+e 346.
+
+[15] [16]
 Глава 2.
 Package biblatex Info: Reference segment=1 on input line 377.
 Package biblatex Info: Setting label 'refsegment:01' on input line 377.
 
 LaTeX Warning: Citation '5228496' on page 17 undefined on input line 379.
 
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.386 ...em \textit{Расстоянием до объекта $ d $}}
-                                                   называется отрезок между ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.387 ...item \textit{Расстоянием до изображения}}
-                                                   называется отрезок между ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 File: ../png/optic.png Graphic file (type bmp)
 <../png/optic.png>
+
+LaTeX Warning: Reference `img:optic' on page 17 undefined on input line 396.
+
+
+LaTeX Warning: Reference `eq:optics' on page 17 undefined on input line 396.
+
 [17
 
 ]
-
-LaTeX Warning: Citation '5228496' on page 18 undefined on input line 398.
-
-
-LaTeX Warning: Citation '845377' on page 18 undefined on input line 400.
-
-
-LaTeX Warning: Citation 'Gawande20' on page 18 undefined on input line 402.
+Missing character: There is no ⃗ in font Times New Roman Italic/OT:script=latn;
+language=dflt;mapping=tex-text;!
+Missing character: There is no ⃗ in font Times New Roman Italic/OT:script=latn;
+language=dflt;mapping=tex-text;!
 
 
-LaTeX Warning: Citation 'surveillance' on page 18 undefined on input line 404.
+LaTeX Warning: Citation '5228496' on page 18 undefined on input line 404.
 
 
-LaTeX Warning: Citation 'inproceedings' on page 18 undefined on input line 406.
+LaTeX Warning: Citation 'Gawande20' on page 18 undefined on input line 407.
 
 
+LaTeX Warning: Citation '8124468' on page 18 undefined on input line 410.
 
-LaTeX Warning: Citation '8124468' on page 18 undefined on input line 408.
+File: ../png/side_car.png Graphic file (type bmp)
+<../png/side_car.png>
+
+LaTeX Warning: Citation '8124468' on page 18 undefined on input line 415.
 
 
-LaTeX Warning: Citation '6754885' on page 18 undefined on input line 410.
+LaTeX Warning: Citation '6754885' on page 18 undefined on input line 418.
+
+File: ../png/corner1.png Graphic file (type bmp)
+<../png/corner1.png>
+
+LaTeX Warning: Citation '6754885' on page 18 undefined on input line 424.
+
+File: ../png/corner2.png Graphic file (type bmp)
+<../png/corner2.png>
+
+LaTeX Warning: Citation '6754885' on page 18 undefined on input line 429.
 
 
-LaTeX Warning: Empty bibliography on input line 413.
+LaTeX Warning: Citation 'surveillance' on page 18 undefined on input line 429.
 
-Package biblatex Info: Reference segment=0 on input line 413.
 
-LaTeX Warning: Citation 'key' on page 18 undefined on input line 417.
+LaTeX Warning: Citation '6754885' on page 18 undefined on input line 429.
 
 [18]
+
+LaTeX Warning: Citation '09903' on page 19 undefined on input line 433.
+
+File: ../png/syntet.png Graphic file (type bmp)
+<../png/syntet.png>
+
+LaTeX Warning: Citation '09903' on page 19 undefined on input line 438.
+
+[19]
+
+LaTeX Warning: Empty bibliography on input line 442.
+
+Package biblatex Info: Reference segment=0 on input line 442.
+
+LaTeX Warning: Citation '6754885' on page 20 undefined on input line 446.
+
+[20]
 Глава 3.
+
+LaTeX Warning: Reference `chp1' on page 21 undefined on input line 454.
+
+
+LaTeX Warning: Reference `img:web-rc' on page 21 undefined on input line 454.
+
 File: ../png/web_rc.png Graphic file (type bmp)
 <../png/web_rc.png>
-[19
+
+LaTeX Warning: Reference `lst:json' on page 21 undefined on input line 462.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `sec:radar' on page 21 undefined on input line 494.
+
+[21
 
 ]
+
+LaTeX Warning: Reference `chp2' on page 22 undefined on input line 497.
+
+[22]
+
+LaTeX Warning: Reference `img:licnum-gost' on page 23 undefined on input line 5
+01.
+
 File: ../png/licnum1.jpeg Graphic file (type bmp)
 <../png/licnum1.jpeg>
+
+LaTeX Warning: Reference `img:plates' on page 23 undefined on input line 512.
+
+File: ../png/plates.png Graphic file (type bmp)
+<../png/plates.png>
 Missing character: There is no ⃗ in font Times New Roman Italic/OT:script=latn;
 language=dflt;mapping=tex-text;!
 Missing character: There is no ⃗ in font Times New Roman Italic/OT:script=latn;
 language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 2285) in paragraph at lines 458--459
+LaTeX Warning: Reference `sec:monitor' on page 23 undefined on input line 528.
+
+[23]
+Underfull \hbox (badness 2285) in paragraph at lines 530--531
 []\TU/TimesNewRoman(0)/m/n/14.4 Согласно законадательству, для формирования штр
 афа, необходимо
  []
 
+
+LaTeX Warning: Reference `img:r-scheme' on page 24 undefined on input line 532.
+
+
 File: ../png/r_scheme.png Graphic file (type bmp)
 <../png/r_scheme.png>
-[20]
+
+LaTeX Warning: Reference `img:r-scheme' on page 24 undefined on input line 540.
+
+
+[24]
+
+LaTeX Warning: Citation '845377' on page 25 undefined on input line 547.
+
+
+LaTeX Warning: Citation 'inproceedings' on page 25 undefined on input line 547.
+
+
+
+LaTeX Warning: Reference `eq:triang-base' on page 25 undefined on input line 54
+7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+[] []\TU/TimesNewRoman(0)/b/n/14.4 Приведени задачи триангуляции[] \TU/TimesNew
+Roman(0)/m/n/14.4 Классическая задача триангуляции
+ []
+
+
+LaTeX Warning: Reference `eq:triang-cross' on page 25 undefined on input line 5
+59.
+
 File: ../png/eq.png Graphic file (type bmp)
 <../png/eq.png>
- [21] [22]
+[25]
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Reference `eq:decart' on page 26 undefined on input line 575.
+
+[26]
+
+LaTeX Warning: Reference `img:blender' on page 27 undefined on input line 591.
+
+File: ../png/blender.png Graphic file (type bmp)
+<../png/blender.png>
+
+LaTeX Warning: Reference `lst:bpy' on page 27 undefined on input line 602.
+
+[27]
+
+LaTeX Warning: Reference `img:rv' on page 28 undefined on input line 626.
+
+[28]
+File: ../png/recordsview.png Graphic file (type bmp)
+<../png/recordsview.png>
+
+
+LaTeX Warning: Reference `eq:decart' on page 29 undefined on input line 642.
+
+[29] [30]
+
+LaTeX Warning: Empty bibliography on input line 656.
 
 \c@@yearminusfive@src=\count516
 \c@@yearminusten@src=\count517
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
 
-Package biblatex Warning: Type 'online' not found on input line 492.
+Package biblatex Warning: Type 'online' not found on input line 656.
 
 
-LaTeX Warning: Empty bibliography on input line 492.
+LaTeX Warning: Empty bibliography on input line 656.
 
-[23
+[31
 
 ]
 Приложение А.
 
-Overfull \hbox (2.18906pt too wide) in paragraph at lines 503--509
+Overfull \hbox (2.18906pt too wide) in paragraph at lines 667--673
  [][] 
  []
 
 
-Overfull \hbox (2.18906pt too wide) in paragraph at lines 514--521
+Overfull \hbox (2.18906pt too wide) in paragraph at lines 678--685
  [][] 
  []
 
 
-Overfull \hbox (1.66351pt too wide) in paragraph at lines 527--527
+Overfull \hbox (1.66351pt too wide) in paragraph at lines 691--691
 []|\TU/TimesNewRoman(0)/b/n/14.4 ID| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 691--691
 []|\TU/TimesNewRoman(0)/b/n/14.4 Тип/формат
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
 []|\TU/TimesNewRoman(0)/m/n/14.4 массив
  []
 
 
-Overfull \hbox (6.10016pt too wide) in paragraph at lines 531--531
+Overfull \hbox (6.10016pt too wide) in paragraph at lines 695--695
 \TU/TimesNewRoman(0)/m/n/14.4 TRectNumber’ов| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
+Underfull \hbox (badness 10000) in paragraph at lines 696--696
 []|\TU/TimesNewRoman(0)/m/n/14.4 массив
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--533
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
 []|\TU/TimesNewRoman(0)/m/n/14.4 Ширина исходного
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 533--533
+Underfull \hbox (badness 1122) in paragraph at lines 697--697
 []|\TU/TimesNewRoman(0)/m/n/14.4 Ширина исходного изображе-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
+Underfull \hbox (badness 10000) in paragraph at lines 698--698
 []|\TU/TimesNewRoman(0)/m/n/14.4 Высота исходного
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 534--534
+Underfull \hbox (badness 5578) in paragraph at lines 698--698
 []|\TU/TimesNewRoman(0)/m/n/14.4 Высота исходного изображе-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 537--537
+Underfull \hbox (badness 3209) in paragraph at lines 701--701
 \TU/TimesNewRoman(0)/m/n/14.4 (должен быть равен размеру
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 []|\TU/TimesNewRoman(0)/m/n/14.4 Данные о GPS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 (COGDEG=342.190002
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 DDLAT=59.92576700
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 DDLON=30.40147000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 DDRADDR=559751168
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 HDOP=0.620000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 SOGMPS=0.000000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 SRC=ACTIVE
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 540--540
+Underfull \hbox (badness 3482) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 SRC_TIME=FPGA) и данные
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 рейки (REIKADISTANCE=60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 REIKALEN=1.79
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 704--704
 \TU/TimesNewRoman(0)/m/n/14.4 REIKALENINPIXELS=74
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 541--541
+Underfull \hbox (badness 2941) in paragraph at lines 705--705
 []|\TU/TimesNewRoman(0)/m/n/14.4 Количество карт глубины на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []|\TU/TimesNewRoman(0)/m/n/14.4 array<double,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 707--707
 []|\TU/TimesNewRoman(0)/m/n/14.4 Размер одной карты
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 545--545
+Underfull \hbox (badness 2608) in paragraph at lines 709--709
 \TU/TimesNewRoman(0)/m/n/14.4 карты глубины коородинатам
  []
 
 
-Overfull \hbox (16.53598pt too wide) in alignment at lines 525--545
+Overfull \hbox (16.53598pt too wide) in alignment at lines 689--709
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
+Underfull \hbox (badness 10000) in paragraph at lines 710--710
 []|\TU/TimesNewRoman(0)/m/n/14.4 struct
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 711--711
 []|\TU/TimesNewRoman(0)/m/n/14.4 enum class
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Underfull \hbox (badness 10000) in paragraph at lines 711--711
 \TU/TimesNewRoman(0)/m/n/14.4 RadarModel:
  []
 
 
-Overfull \hbox (16.53598pt too wide) in alignment at lines 545--548
+Overfull \hbox (16.53598pt too wide) in alignment at lines 709--712
  [] [] [] [] 
  []
 
-[24
+[32
 
-] [25] [26]
+] [33] [34]
 Приложение Б.
-[27
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Рас-
+ []
+
+
+Overfull \hbox (3.17299pt too wide) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/b/n/14.4 стояние
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/b/n/14.4 между
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/b/n/14.4 фрей-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Кол-во
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Фрей-
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/b/n/14.4 мов на
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/b/n/14.4 цель
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Погрешность
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/b/n/14.4 Погрешность
+ []
+
+
+Overfull \hbox (6.19643pt too wide) in paragraph at lines 722--722
+[]|\TU/TimesNewRoman(0)/m/n/14.4 2.666667| 
+ []
+
+
+Overfull \hbox (6.19643pt too wide) in paragraph at lines 726--726
+[]|\TU/TimesNewRoman(0)/m/n/14.4 3.966667| 
+ []
+
+
+Overfull \hbox (3.10187pt too wide) in paragraph at lines 720--730
+ [][] 
+ []
+
+[35
 
 ] (./master-thesis.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2051,12 +2287,12 @@ Package logreq Info: Writing requests to 'master-thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35034 strings out of 479418
- 697499 string characters out of 5884586
- 1656024 words of memory out of 5000000
- 51909 multiletter control sequences out of 15000+600000
+ 35124 strings out of 479418
+ 698868 string characters out of 5884586
+ 1676504 words of memory out of 5000000
+ 51994 multiletter control sequences out of 15000+600000
  538761 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,112p,1138b,5048s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,112p,1138b,5489s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on master-thesis.pdf (30 pages).
+Output written on master-thesis.pdf (38 pages).

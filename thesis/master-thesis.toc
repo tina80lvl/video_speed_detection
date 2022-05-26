@@ -43,27 +43,43 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Базовая геометрическая оптика}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Выводы по главе\nobreakspace 2}{18}%
+\contentsline {section}{\numberline {2.2}Компьютерное зрение}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Предложенное решение}{19}%
+\contentsline {section}{Выводы по главе\nobreakspace 2}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Сбор входных данных. RC-парсер}{19}%
+\contentsline {chapter}{\numberline {3}Предложенное решение}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Объект мониторинга}{19}%
+\contentsline {section}{\numberline {3.1}Сбор входных данных. RC-парсер}{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Алгоритм определения скорости}{20}%
+\contentsline {section}{\numberline {3.2}Объект мониторинга}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Приведени задачи триангуляции}{21}%
+\contentsline {subsubsection}{\numberline {3.2.0.1}Сбор датасета Государственных регистрационных знаков}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Выводы по главе\nobreakspace 3}{22}%
+\contentsline {section}{\numberline {3.3}Алгоритм определения скорости}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{23}%
+\contentsline {paragraph}{Приведени задачи триангуляции}{25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Генерация синтетических данных}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Объект разработки}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}GLTF-формат}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Gplay}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Оценка результатов}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Матчинг радарных данных}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Выводы по главе\nobreakspace 3}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{31}%
 \defcounter {refsection}{0}\relax 
 \ttl@change@i {\@ne }{chapter}{\appendixPrefix }{}{\contentslabel [\@appendixname ~\thecontentslabel .]{\the \appendixPrefix }}{\hspace *{-\the \appendixPrefix }}{\titlerule *[0.5pc]{.}\contentspage }\relax 
 \defcounter {refsection}{0}\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {А}Описания форматов}{24}%
+\contentsline {chapter}{\numberline {А}Описания форматов}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {Б}Еще один пример приложения с неимоверно длиннющим названием для тестирования переносов}{27}%
+\contentsline {chapter}{\numberline {Б}Результаты}{35}%
 \contentsfinish 
