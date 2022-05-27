@@ -115,8 +115,6 @@ double get_closest_target_speed(const coords3D c3d,
 
 std::map<std::string, std::vector<CutFrame>>
 MapFrames::fill_structure(const Calc3x4 &c) {
-
-
     std::map<std::string, std::vector<CutFrame>> map;
     for (const auto &frame: this->frames) {
         for (const auto &ln: frame.licnums) {
@@ -172,6 +170,8 @@ MapFrames::fill_structure(const Calc3x4 &c) {
             cf.time = frame.time;
 
             coords3D c3d;
+            c.posBySection(ln.x[1], ln.y[1], ln.x[3], ln.y[3], licnum_width_in_meters,
+                           &c3d.x, &c3d.y, &c3d.zl, &c3d.zr);
             cf.coords = c3d;
 
             cf.radar_speed = get_closest_target_speed(c3d, frame.radar_targets);

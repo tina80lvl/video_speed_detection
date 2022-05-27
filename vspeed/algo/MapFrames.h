@@ -34,6 +34,10 @@ struct Time {
     double diff() {
         return (double) sec + (double) usec / 1000000.0;
     }
+
+    float get_float() const {
+        return (float) sec + (float) usec / 1000000.0;
+    }
 };
 
 struct Frame {
