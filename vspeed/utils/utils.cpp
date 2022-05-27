@@ -50,13 +50,16 @@ std::string process_file(const std::string &path) {
 
         const auto &mistake = speed_detection_quality(speeds);
         const auto &false_pos = false_positive(speeds, 19);
+        const auto &missed_targets = missed(speeds);
 
-        report += file_name + ',' + std::to_string(i) + ',' +
+        report += file_name + ',' +
+//                  std::to_string(i) + ',' +
                   std::to_string(map.size()) + ',' +
                   std::to_string(mistake.second) + ',' +
                   std::to_string(mistake.first) + ',' +
                   std::to_string(mistake.first * 3.6) + ',' +
                   std::to_string(false_pos) + '\n';
+//                  std::to_string(missed_targets) + '\n';
 
     }
 

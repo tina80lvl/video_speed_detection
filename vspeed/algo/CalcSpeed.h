@@ -14,4 +14,6 @@ std::pair<double, double> speed_detection_quality(const SPD &speeds_by_licnum);
 
 double false_positive(const SPD &speeds_by_licnum, double limit);
 
+int missed(const SPD &speeds_by_licnum);
+
 #endif //VSPEED_CALCSPEED_H
