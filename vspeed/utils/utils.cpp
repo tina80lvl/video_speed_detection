@@ -23,6 +23,18 @@ void linear_tune(std::map<std::string, std::vector<CutFrame>>& map) {
     }
 }
 
+void save_all_speeds(SPD& speeds, int frame_dist) {
+    std::ofstream save_file;
+    save_file.open("../reports/speeds.csv");
+    save_file << "frame_dist,licnum,calc_speed,radar_speed\n";
+    for (auto[key, val]: speeds) {
+        for (const auto &p: val) {
+//            if (p.first == -1) continue;
+
+            save_file << std::to_string(frame_dist) << ',' << key << ',' << std::to_string(p.first) << ',' << std::to_string(p.second) << '\n';
+        }
+    }
+}
 
 std::string process_file(const std::string &path) {
     std::cout << "Processing file: " << path << std::endl;
@@ -47,6 +59,7 @@ std::string process_file(const std::string &path) {
     std::string report;
     for (int i = 2; i < 3; ++i) {
         auto speeds = calculate_speeds(i, map);
+        save_all_speeds(speeds, i);
 
         const auto &mistake = speed_detection_quality(speeds);
         const auto &false_pos = false_positive(speeds, 19);

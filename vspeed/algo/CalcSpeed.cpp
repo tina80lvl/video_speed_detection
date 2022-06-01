@@ -61,8 +61,8 @@ double false_positive(const SPD &speeds_by_licnum, double limit) {
     for (auto[key, val]: speeds_by_licnum) {
         for (const auto &p: val) {
             if (p.first == -1) continue;
-            
-            std::cerr << p.second << ", ";
+
+//            std::cerr << p.second << ", ";
 
 //            if (std::abs(p.first - p.second) > limit)
 //                std::cerr << p.first << ' ' << p.second << std::endl;

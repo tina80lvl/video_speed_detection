@@ -1,7 +1,7 @@
 project(vspeed-utils)
 
-set(SOURCES Utils.cpp json.cpp)
-set(HEADERS Utils.h json.h)
+set(SOURCES utils.cpp json.cpp)
+set(HEADERS utils.h json.h)
 
 add_library(utils ${SOURCES} ${HEADERS})
 target_include_directories(utils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
