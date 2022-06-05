@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+
 #include "CalcSpeed.h"
 
 double dist_in_3d(const coords3D &p1, const coords3D &p2) {
@@ -20,7 +21,7 @@ SPD calculate_speeds(int frame_dist,
 
             double dist = dist_in_3d(val[i].coords, val[j].coords);
             double vspeed = dist / (val[j].time - val[i].time).diff();
-//            std::cerr << "calc speed: " << vspeed << ", real: " << val[j].radar_speed << std::endl;
+
             ans[key].emplace_back(std::make_pair(vspeed, val[j].radar_speed));
         }
     }
@@ -49,8 +50,6 @@ std::pair<double, double> speed_detection_quality(const SPD &speeds_by_licnum) {
         all_cnt += cnt;
     }
 
-//    std::cerr << "min " << mins << " max " << maxs << std::endl;
-
     return {all_total / all_cnt,
             all_frameby / speeds_by_licnum.size()};
 }
@@ -62,10 +61,6 @@ double false_positive(const SPD &speeds_by_licnum, double limit) {
         for (const auto &p: val) {
             if (p.first == -1) continue;
 
-//            std::cerr << p.second << ", ";
-
-//            if (std::abs(p.first - p.second) > limit)
-//                std::cerr << p.first << ' ' << p.second << std::endl;
             sum += std::abs(p.first - p.second) > limit;
             ++cnt;
         }
@@ -84,7 +79,7 @@ int missed(const SPD &speeds_by_licnum) {
                 ++loc;
             }
         }
-//        std::cerr << "missed " << loc << " out of " << val.size() << std::endl;
+
         if (loc == val.size()) {
             ++cnt;
         }

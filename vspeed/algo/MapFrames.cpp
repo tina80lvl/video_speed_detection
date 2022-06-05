@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+
 #include "MapFrames.h"
 
 #define INF 100500
@@ -67,8 +68,6 @@ MapFrames::MapFrames(const rapidjson::Document &doc) {
             for (int i = 0; i < text.length(); ++i) {
                 ln.text16[i] = (unsigned short) text[i]; // unsigned short
             }
-
-            // TODO add certainties to parser
 
             auto array_x = licnum["x"].GetArray();
             auto array_y = licnum["y"].GetArray();
@@ -170,7 +169,8 @@ MapFrames::fill_structure(const Calc3x4 &c) {
             cf.time = frame.time;
 
             coords3D c3d;
-            c.posBySection(ln.x[1], ln.y[1], ln.x[3], ln.y[3], licnum_width_in_meters,
+            c.posBySection(ln.x[1], ln.y[1], ln.x[3], ln.y[3],
+                           licnum_width_in_meters,
                            &c3d.x, &c3d.y, &c3d.zl, &c3d.zr);
             cf.coords = c3d;
 

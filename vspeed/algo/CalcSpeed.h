@@ -1,10 +1,11 @@
 #ifndef VSPEED_CALCSPEED_H
 #define VSPEED_CALCSPEED_H
 
-// < calc speed , radar speed >
+// < calc_speed , radar_speed >
 #define SPD std::map<std::string, std::vector<std::pair<double, double>>>
 
 #include <map>
+
 #include "MapFrames.h"
 
 SPD calculate_speeds(int frame_dist,

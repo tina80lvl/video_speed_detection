@@ -3,7 +3,9 @@
 
 #include <vector>
 #include <map>
+
 #include "rapidjson/document.h"
+
 #include "../libs/Types.h"
 #include "../libs/Calc.h"
 
